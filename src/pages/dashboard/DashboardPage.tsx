@@ -10,15 +10,16 @@ export function DashboardPage() {
     return (
         <Container p="lg" fluid>
             <Paper>
-                <Text align="center" size="xl">Welcome Message</Text>
+                <Text align="center" size="xl">Welcome to the Astronomy Dashboard</Text>;
+
             </Paper>
             <SimpleGrid>
 
-                 <FeaturedObject />
-                 <UpcomingEvents />
-                 <TelescopeSettings />
-                 <LatestAstronomyNews />
-                 <GetInvolved />
+                <FeaturedObject />
+                <UpcomingEvents />
+                <TelescopeSettings />
+                <LatestAstronomyNews />
+                <GetInvolved />
             </SimpleGrid>
         </Container>
     );
